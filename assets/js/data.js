@@ -3836,24 +3836,7 @@ window.WEDDING_DATA = {
       "thumbSrc": "../assets/media/slideshow/thumbs/Slideshow_128.jpg"
     }
   ],
-  "audio": [
-    {
-      "type": "audio",
-      "group": "",
-      "title": "Speeches Audio",
-      "description": "",
-      "src": "",
-      "status": "coming-soon"
-    },
-    {
-      "type": "audio",
-      "group": "",
-      "title": "Songs Audio",
-      "description": "",
-      "src": "",
-      "status": "coming-soon"
-    }
-  ],
+  "audio": [],
   "weddingVideo": [
     {
       "type": "youtube",
@@ -3883,6 +3866,108 @@ window.WEDDING_DATA = {
       "poster": "../assets/media/details/hero-main.jpg",
       "src": "",
       "status": "coming-soon"
+    }
+  ],
+  "speechAudio": [
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Priscilla Behen",
+      "description": "",
+      "src": "../assets/media/audio/speeches/Speech 01 - Priscilla Behen.mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Marcus MacKenzie",
+      "description": "",
+      "src": "../assets/media/audio/speeches/Speech 02 - Marcus MacKenzie.mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Doug & Ruth Behen",
+      "description": "",
+      "src": "../assets/media/audio/speeches/Speech 03 - Doug & Ruth Behen.mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Andrew & Pam MacKenzie",
+      "description": "",
+      "src": "../assets/media/audio/speeches/Speech 04 - Andrew & Pam MacKenzie.mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Darrell Raynor (Song Intro)",
+      "description": "",
+      "src": "../assets/media/audio/speeches/Speech 05 - Darrell Raynor (Song Intro).mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Norman & Hannah Turkington (Song Outro)",
+      "description": "",
+      "src": "../assets/media/audio/speeches/Speech 06 - Norman & Hannah Turkington (Song Outro).mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Micheal Leger & Luke Hierlihy (Song Intro)",
+      "description": "",
+      "src": "../assets/media/audio/speeches/Speech 07 - Micheal Leger & Luke Hierlihy (Song Intro).mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Luke Hierlihy (Hymn Intro)",
+      "description": "",
+      "src": "../assets/media/audio/speeches/Speech 08 - Luke Hierlihy (Hymn Intro).mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Justin & Charlotte MacKenzie",
+      "description": "",
+      "src": "../assets/media/audio/speeches/Speech 09 - Justin & Charlotte MacKenzie.mp3"
+    }
+  ],
+  "songAudio": [
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Walk the Line",
+      "description": "",
+      "src": "../assets/media/audio/songs/Song 01 - Walk the Line.mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Justin's Honeybun",
+      "description": "",
+      "src": "../assets/media/audio/songs/Song 02 - Justin's Honeybun.mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Still Like a Rollback",
+      "description": "",
+      "src": "../assets/media/audio/songs/Song 03 - Still Like a Rollback.mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Leanna MacArthur - Man of Sorrows",
+      "description": "",
+      "src": "../assets/media/audio/songs/Song 04 - Leanna MacArthur - Man of Sorrows.mp3"
+    },
+    {
+      "type": "audio",
+      "group": "",
+      "title": "Hymn Sing",
+      "description": "",
+      "src": "../assets/media/audio/songs/Song 05 - Hymn Sing.mp3"
     }
   ]
 };

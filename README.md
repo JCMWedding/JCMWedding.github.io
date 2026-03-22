@@ -1,6 +1,6 @@
 # Justin & Charlotte Wedding Memories
 
-A GitHub-hosted wedding site starter for Justin and Charlotte MacKenzie, styled around the wedding palette and ready for photos, video, audio, and shared memories.
+A GitHub-hosted wedding site Justin and Charlotte MacKenzie, styled around the wedding palette, for sharing photos, video, audio, and memories.
 
 ## Included pages
 
@@ -32,22 +32,12 @@ For each photo gallery folder, place thumbnails in a `thumbs/` subfolder using t
 - `assets/media/ceremony/ceremony-01.jpg`
 - `assets/media/ceremony/thumbs/ceremony-01.jpg`
 
-This works for:
-
-- `assets/media/ceremony`
-- `assets/media/portraits`
-- `assets/media/reception`
-- `assets/media/slideshow`
-
 ## Generating thumbnails
 
 Use the included helper script:
 
 ```bash
 python tools/generate-gallery-thumbnails.py assets/media/ceremony
-python tools/generate-gallery-thumbnails.py assets/media/portraits
-python tools/generate-gallery-thumbnails.py assets/media/reception
-python tools/generate-gallery-thumbnails.py assets/media/slideshow
 ```
 
 Default settings:

@@ -12,21 +12,99 @@
 <script src="../assets/js/config.js" defer></script>
 <script src="../assets/js/data.js" defer></script>
 <script src="../assets/js/site.js" defer></script>
+<style>
+.audio-group-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+.audio-group-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.audio-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.audio-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.audio-item-title {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--color-ink, #44464D);
+}
+.audio-item audio {
+  width: 100%;
+}
+.media-note {
+  margin: 0.85rem 0 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(68, 70, 77, 0.78);
+}
+</style>
 <script>
 window.addEventListener('load', function () {
-  const card = document.querySelector('.media-grid-single .media-card');
-  if (!card || card.querySelector('.media-note')) return;
+  const data = window.WEDDING_DATA || {};
 
-  const note = document.createElement('p');
-  note.className = 'media-note';
-  note.textContent = 'Zoom recording made for family who could not attend, please excuse the quality.';
+  const weddingCard = document.querySelector('.media-grid-single .media-card');
+  if (weddingCard && !weddingCard.querySelector('.media-note')) {
+    const note = document.createElement('p');
+    note.className = 'media-note';
+    note.textContent = 'Zoom recording made for family who could not attend, please excuse the quality.';
 
-  const player = card.querySelector('.embed-frame, video, audio, .notice');
-  if (player) {
-    player.insertAdjacentElement('afterend', note);
-  } else {
-    card.appendChild(note);
+    const player = weddingCard.querySelector('.embed-frame, iframe, video, audio, .notice');
+    if (player) {
+      player.insertAdjacentElement('afterend', note);
+    } else {
+      weddingCard.appendChild(note);
+    }
   }
+
+  const renderAudioGroup = function (targetId, heading, items) {
+    const target = document.getElementById(targetId);
+    if (!target) return;
+
+    const card = document.createElement('article');
+    card.className = 'media-card audio-group-card';
+
+    const title = document.createElement('h3');
+    title.textContent = heading;
+    card.appendChild(title);
+
+    const stack = document.createElement('div');
+    stack.className = 'audio-stack';
+
+    (items || []).forEach(function (item) {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'audio-item';
+
+      const label = document.createElement('p');
+      label.className = 'audio-item-title';
+      label.textContent = item.title || '';
+      wrapper.appendChild(label);
+
+      const player = document.createElement('audio');
+      player.setAttribute('controls', 'controls');
+      player.setAttribute('preload', 'none');
+      player.src = item.src || '';
+      wrapper.appendChild(player);
+
+      stack.appendChild(wrapper);
+    });
+
+    card.appendChild(stack);
+    target.appendChild(card);
+  };
+
+  renderAudioGroup('speech-audio-target', 'Reception Speeches (Audio Only)', data.speechAudio || []);
+  renderAudioGroup('song-audio-target', 'Reception Songs (Audio Only)', data.songAudio || []);
 });
 </script>
 </head>
@@ -71,8 +149,9 @@ window.addEventListener('load', function () {
   </section>
 
   <section class="section section-tight">
-    <div class="container media-grid" data-media-key="audio">
-      <div class="media-target" style="display: contents;"></div>
+    <div class="container audio-group-grid">
+      <div id="speech-audio-target"></div>
+      <div id="song-audio-target"></div>
     </div>
   </section>
 </main>
