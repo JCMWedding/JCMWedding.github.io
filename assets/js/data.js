@@ -3868,6 +3868,80 @@ window.WEDDING_DATA = {
       "status": "coming-soon"
     }
   ],
+  "speechVideos": [
+    {
+      "type": "youtube",
+      "group": "",
+      "title": "Priscilla Behen",
+      "description": "",
+      "embedUrl": "https://www.youtube.com/embed/IcjIshe2vwI?autoplay=1&rel=0"
+    },
+    {
+      "type": "youtube",
+      "group": "",
+      "title": "Marcus MacKenzie",
+      "description": "",
+      "embedUrl": "https://www.youtube.com/embed/rnqHvg36hCc?autoplay=1&rel=0"
+    },
+    {
+      "type": "youtube",
+      "group": "",
+      "title": "Doug & Ruth Behen",
+      "description": "",
+      "embedUrl": "https://www.youtube.com/embed/9ijXVsr9mPo?autoplay=1&rel=0"
+    },
+    {
+      "type": "youtube",
+      "group": "",
+      "title": "Andrew & Pam MacKenzie",
+      "description": "",
+      "embedUrl": "https://www.youtube.com/embed/FhJCZ7FK5z8?autoplay=1&rel=0"
+    },
+    {
+      "type": "youtube",
+      "group": "",
+      "title": "Darrell Raynor (Song Intro)",
+      "description": "",
+      "embedUrl": "https://www.youtube.com/embed/mKfmffEf8sM?autoplay=1&rel=0"
+    }
+  ],
+  "songVideos": [
+    {
+      "type": "youtube",
+      "group": "",
+      "title": "Walk the Line",
+      "description": "",
+      "embedUrl": "https://www.youtube.com/embed/m0RmYNb7Ij4?autoplay=1&rel=0"
+    },
+    {
+      "type": "youtube",
+      "group": "",
+      "title": "Justin's Honeybun",
+      "description": "",
+      "embedUrl": "https://www.youtube.com/embed/E7ydfNlWpEY?autoplay=1&rel=0"
+    },
+    {
+      "type": "youtube",
+      "group": "",
+      "title": "Still Like a Rollback",
+      "description": "",
+      "embedUrl": "https://www.youtube.com/embed/DIfkcq5tsBA?autoplay=1&rel=0"
+    },
+    {
+      "type": "youtube",
+      "group": "",
+      "title": "Leanna MacArthur - Man of Sorrows",
+      "description": "",
+      "embedUrl": "https://www.youtube.com/embed/VEvk2zNdcSU?autoplay=1&rel=0"
+    },
+    {
+      "type": "youtube",
+      "group": "",
+      "title": "Hymn Sing",
+      "description": "",
+      "embedUrl": "https://www.youtube.com/embed/wz1pGpO-XAg?autoplay=1&rel=0"
+    }
+  ],
   "speechAudio": [
     {
       "type": "audio",
