@@ -3886,7 +3886,7 @@ window.WEDDING_DATA = {
     {
       "type": "youtube",
       "group": "",
-      "title": "Doug & Ruth Behen",
+      "title": "Doug Behen",
       "description": "",
       "embedUrl": "https://www.youtube.com/embed/9ijXVsr9mPo?autoplay=1&rel=0"
     },
@@ -3900,7 +3900,7 @@ window.WEDDING_DATA = {
     {
       "type": "youtube",
       "group": "",
-      "title": "Darrell Raynor (Song Intro)",
+      "title": "Norman & Hannah Turkington (Song Outro)",
       "description": "",
       "embedUrl": "https://www.youtube.com/embed/mKfmffEf8sM?autoplay=1&rel=0"
     }
@@ -3932,14 +3932,14 @@ window.WEDDING_DATA = {
       "group": "",
       "title": "Leanna MacArthur - Man of Sorrows",
       "description": "",
-      "embedUrl": "https://www.youtube.com/embed/VEvk2zNdcSU?autoplay=1&rel=0"
+      "embedUrl": "https://www.youtube.com/embed/wz1pGpO-XAg?autoplay=1&rel=0"
     },
     {
       "type": "youtube",
       "group": "",
-      "title": "Hymn Sing",
+      "title": "Hymn Sing Clip",
       "description": "",
-      "embedUrl": "https://www.youtube.com/embed/wz1pGpO-XAg?autoplay=1&rel=0"
+      "embedUrl": "https://www.youtube.com/embed/VEvk2zNdcSU?autoplay=1&rel=0"
     }
   ],
   "speechAudio": [
@@ -3960,7 +3960,7 @@ window.WEDDING_DATA = {
     {
       "type": "audio",
       "group": "",
-      "title": "Doug & Ruth Behen",
+      "title": "Doug Behen",
       "description": "",
       "src": "../assets/media/audio/speeches/Speech 03 - Doug & Ruth Behen.mp3"
     },
