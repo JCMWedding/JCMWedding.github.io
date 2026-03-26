@@ -3907,7 +3907,7 @@ window.WEDDING_DATA = {
     {
       "type": "youtube",
       "group": "",
-      "title": "Speech - Justin & Charlotte MacKenzie",
+      "title": "Justin & Charlotte MacKenzie",
       "description": "",
       "embedUrl": "https://www.youtube.com/embed/rOwmbl_FT-4?autoplay=1&rel=0"
     }
