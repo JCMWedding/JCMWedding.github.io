@@ -3903,6 +3903,13 @@ window.WEDDING_DATA = {
       "title": "Norman & Hannah Turkington (Song Outro)",
       "description": "",
       "embedUrl": "https://www.youtube.com/embed/mKfmffEf8sM?autoplay=1&rel=0"
+    },
+    {
+      "type": "youtube",
+      "group": "",
+      "title": "Speech - Justin & Charlotte MacKenzie",
+      "description": "",
+      "embedUrl": "https://www.youtube.com/embed/rOwmbl_FT-4?autoplay=1&rel=0"
     }
   ],
   "songVideos": [
