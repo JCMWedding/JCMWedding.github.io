@@ -934,6 +934,48 @@ window.WEDDING_DATA = {
   ],
   "portraits": [
     {
+      "src": "../assets/media/kaitlyn_edits/image0.png",
+      "title": "",
+      "caption": "",
+      "alt": "Portrait image",
+      "thumbSrc": "../assets/media/kaitlyn_edits/thumbs/image0.png"
+    },
+    {
+      "src": "../assets/media/kaitlyn_edits/image1.jpeg",
+      "title": "",
+      "caption": "",
+      "alt": "Portrait image",
+      "thumbSrc": "../assets/media/kaitlyn_edits/thumbs/image1.jpeg"
+    },
+    {
+      "src": "../assets/media/kaitlyn_edits/image2.jpeg",
+      "title": "",
+      "caption": "",
+      "alt": "Portrait image",
+      "thumbSrc": "../assets/media/kaitlyn_edits/thumbs/image2.jpeg"
+    },
+    {
+      "src": "../assets/media/kaitlyn_edits/image3.jpeg",
+      "title": "",
+      "caption": "",
+      "alt": "Portrait image",
+      "thumbSrc": "../assets/media/kaitlyn_edits/thumbs/image3.jpeg"
+    },
+    {
+      "src": "../assets/media/kaitlyn_edits/image4.jpeg",
+      "title": "",
+      "caption": "",
+      "alt": "Portrait image",
+      "thumbSrc": "../assets/media/kaitlyn_edits/thumbs/image4.jpeg"
+    },
+    {
+      "src": "../assets/media/kaitlyn_edits/image5.png",
+      "title": "",
+      "caption": "",
+      "alt": "Portrait image",
+      "thumbSrc": "../assets/media/kaitlyn_edits/thumbs/image5.png"
+    },
+    {
       "src": "../assets/media/portraits/IMG_5872.JPG",
       "title": "",
       "caption": "",
