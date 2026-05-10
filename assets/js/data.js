@@ -4023,13 +4023,6 @@ window.WEDDING_DATA = {
     {
       "type": "audio",
       "group": "",
-      "title": "Darrell Raynor (Song Intro)",
-      "description": "",
-      "src": "../assets/media/audio/speeches/Speech 05 - Darrell Raynor (Song Intro).mp3"
-    },
-    {
-      "type": "audio",
-      "group": "",
       "title": "Norman & Hannah Turkington (Song Outro)",
       "description": "",
       "src": "../assets/media/audio/speeches/Speech 06 - Norman & Hannah Turkington (Song Outro).mp3"
